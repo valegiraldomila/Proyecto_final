@@ -7,7 +7,7 @@ html{
 
 html {
     display: block;
-    min-height: 300%;
+    min-height: 400%;
     position:relative;
 }
 body{
@@ -139,7 +139,27 @@ footer{
     text-align: center;
     width: 100%;
 }
+.profile3{
+    text-align: center;
+    width: 100%;
+}
 .sia{
     width: 100%;
 }
 
+.slider{
+    width:130%;
+    margin:auto;
+}
+.slider ul{
+    display:flex;
+    padding:0;
+    width:800;
+}
+.slider li {
+    width:150%;
+    list-style:none;
+}
+.slider img{
+    width:100%
+}
