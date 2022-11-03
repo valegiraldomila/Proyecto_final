@@ -12,7 +12,9 @@ html {
 }
 body{
    font-family: comic Arial, Helvetica, sans-serif;
-   text-align: left;
+   /*text-align: left;*/
+   padding:0px;
+   margin:0px;
 }
 
 
@@ -90,7 +92,6 @@ footer{
     padding:20px 35px;
     
 }
-
 .nav > li {
     float:left;
 }
@@ -124,22 +125,21 @@ footer{
     line-height:10px;
     margin-right:40px;
 }
-/*
-@media (max-width:952px){
-    .content{
-        padding-left:20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-    
+.profile {
+  /*
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    */
+    text-align: center;
+    width: 100%;
 }
- 
-/*
-@media (max-width:952px){
-    .checkbtn{
-        display:block;
-    }
-    
+.profile2{
+    text-align: center;
+    width: 100%;
 }
-*/
+.sia{
+    width: 100%;
+}
+
